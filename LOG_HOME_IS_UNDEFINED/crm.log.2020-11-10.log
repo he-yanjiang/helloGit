@@ -1,0 +1,457 @@
+2020-11-10 22:13:39.638 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-10 22:13:39.714 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 3492 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-10 22:13:39.714 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-10 22:13:40.966 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-10 22:13:40.971 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-10 22:13:41.022 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-11-10 22:13:41.937 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-10 22:13:41.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-10 22:13:41.950 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 22:13:41.950 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-10 22:13:42.073 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 22:13:42.073 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2208 ms
+2020-11-10 22:13:43.613 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 22:13:43.733 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-10 22:13:44.236 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-10 22:13:44.288 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-10 22:13:44.316 [main] INFO  com.sst.App - Started App in 5.241 seconds (JVM running for 7.604)
+2020-11-10 22:15:59.928 [http-nio-80-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 22:15:59.929 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 22:15:59.943 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 14 ms
+2020-11-10 22:16:00.502 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:16:00.583 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:16:02.724 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:16:02.724 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:16:11.061 [http-nio-80-exec-3] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5756ab19, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:16:12.958 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:16:12.971 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:16:21.151 [http-nio-80-exec-5] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2a1070af, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:16:31.231 [http-nio-80-exec-6] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@4043623, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:16:34.893 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:16:34.893 [http-nio-80-exec-10] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:16:41.306 [http-nio-80-exec-4] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5d14e669, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:16:42.186 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:16:42.186 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:16:51.329 [http-nio-80-exec-10] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2a1070af, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:17:00.362 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:17:00.362 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:17:01.357 [http-nio-80-exec-9] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@4043623, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:17:02.209 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:17:02.209 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:17:11.377 [http-nio-80-exec-8] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2507f103, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:17:21.389 [http-nio-80-exec-7] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5756ab19, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:17:23.456 [http-nio-80-exec-9] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6dfcb3a7]
+2020-11-10 22:17:23.497 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:17:23.498 [http-nio-80-exec-9] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:17:27.101 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:17:27.457 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:17:31.399 [http-nio-80-exec-4] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@181663af, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:17:41.448 [http-nio-80-exec-6] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@4043623, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:17:51.470 [http-nio-80-exec-5] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5eb7617c, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:18:01.497 [http-nio-80-exec-3] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2a1070af, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:18:11.516 [http-nio-80-exec-2] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@6140330b, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:18:21.535 [http-nio-80-exec-1] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5d14e669, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:18:31.557 [http-nio-80-exec-7] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2f2a5cb9, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:18:41.578 [http-nio-80-exec-8] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2507f103, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.102/<unresolved>:6379]
+2020-11-10 22:18:51.611 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:18:51.611 [http-nio-80-exec-9] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5756ab19, java.lang.NullPointerException]
+2020-11-10 22:19:07.564 [http-nio-80-exec-10] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@223667e1]
+2020-11-10 22:19:07.564 [http-nio-80-exec-10] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:19:07.564 [http-nio-80-exec-10] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:19:17.604 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:19:17.604 [http-nio-80-exec-10] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@5756ab19, java.lang.NullPointerException]
+2020-11-10 22:21:07.739 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-10 22:21:07.739 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 9420 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-10 22:21:07.752 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-10 22:21:08.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-10 22:21:08.904 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-10 22:21:08.992 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2020-11-10 22:21:09.721 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-10 22:21:09.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-10 22:21:09.740 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 22:21:09.746 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-10 22:21:09.864 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 22:21:09.865 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2034 ms
+2020-11-10 22:21:11.236 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 22:21:11.330 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-10 22:21:11.850 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-10 22:21:11.873 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-10 22:21:11.888 [main] INFO  com.sst.App - Started App in 4.673 seconds (JVM running for 6.243)
+2020-11-10 22:23:06.146 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 22:23:06.147 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 22:23:06.160 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-11-10 22:23:06.208 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:23:06.208 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:23:06.209 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3f0a343d]
+2020-11-10 22:23:06.222 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:23:06.225 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:23:10.004 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:23:10.004 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:23:16.563 [http-nio-80-exec-3] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@17206e0d, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.101/<unresolved>:6379]
+2020-11-10 22:23:26.635 [http-nio-80-exec-5] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@25d237c9, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.101/<unresolved>:6379]
+2020-11-10 22:23:36.693 [http-nio-80-exec-4] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@4043623, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.101/<unresolved>:6379]
+2020-11-10 22:23:38.982 [http-nio-80-exec-6] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2507f103]
+2020-11-10 22:23:38.982 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:23:38.992 [http-nio-80-exec-6] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:23:46.800 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:23:46.803 [http-nio-80-exec-1] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@2c60f7b8, java.lang.NullPointerException]
+2020-11-10 22:23:56.786 [http-nio-80-exec-2] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@78c9a13a, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.0.101/<unresolved>:6379]
+2020-11-10 22:24:06.825 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:24:06.825 [http-nio-80-exec-6] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@4043623, java.lang.NullPointerException]
+2020-11-10 22:24:43.218 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 1596 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-10 22:24:43.233 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-10 22:24:43.233 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-10 22:24:44.275 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-10 22:24:44.278 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-10 22:24:44.315 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-11-10 22:24:45.135 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-10 22:24:45.135 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-10 22:24:45.146 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 22:24:45.146 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-10 22:24:45.237 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 22:24:45.237 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1912 ms
+2020-11-10 22:24:46.473 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 22:24:46.597 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-10 22:24:47.091 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-10 22:24:47.130 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-10 22:24:47.144 [main] INFO  com.sst.App - Started App in 4.458 seconds (JVM running for 6.064)
+2020-11-10 22:25:34.810 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 22:25:34.810 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 22:25:34.827 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-11-10 22:25:34.867 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@74ae794c]
+2020-11-10 22:25:34.874 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:25:34.878 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:25:35.252 [http-nio-80-exec-1] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 22:25:35.254 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:25:35.258 [http-nio-80-exec-1] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46171337, java.lang.NullPointerException]
+2020-11-10 22:26:17.070 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2507f103]
+2020-11-10 22:26:17.070 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:26:17.070 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:26:17.085 [http-nio-80-exec-2] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 22:26:17.090 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:26:17.105 [http-nio-80-exec-2] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46171337, java.lang.NullPointerException]
+2020-11-10 22:26:34.088 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3ffecb85]
+2020-11-10 22:26:34.092 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:26:34.094 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:26:34.102 [http-nio-80-exec-3] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 22:26:34.106 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:26:34.106 [http-nio-80-exec-3] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46171337, java.lang.NullPointerException]
+2020-11-10 22:26:35.337 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:26:35.337 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:26:35.394 [http-nio-80-exec-4] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.ContentServiceImpl.getContentAndCategory()。参数为：[]
+2020-11-10 22:26:35.394 [http-nio-80-exec-5] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll()。参数为：[]
+2020-11-10 22:26:35.686 [http-nio-80-exec-4] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-10 22:26:36.064 [http-nio-80-exec-5] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.GoodsCategoryModel@1f650fb6, com.sst.service.model.GoodsCategoryModel@1b1dd7fe, com.sst.service.model.GoodsCategoryModel@4dc2759f]
+2020-11-10 22:26:36.067 [http-nio-80-exec-5] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll()执行完成。 后置
+2020-11-10 22:26:36.068 [http-nio-80-exec-4] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.ContentModel@55334a9f, com.sst.service.model.ContentModel@535fe247, com.sst.service.model.ContentModel@788f78f2]
+2020-11-10 22:26:36.069 [http-nio-80-exec-4] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory()执行完成。 后置
+2020-11-10 22:26:39.164 [http-nio-80-exec-6] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5b4fa94f]
+2020-11-10 22:26:39.164 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:26:39.171 [http-nio-80-exec-6] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:26:39.178 [http-nio-80-exec-6] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 22:26:39.179 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:26:39.179 [http-nio-80-exec-6] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46171337, java.lang.NullPointerException]
+2020-11-10 22:34:36.268 [http-nio-80-exec-7] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@50e225f6]
+2020-11-10 22:34:36.268 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:34:36.268 [http-nio-80-exec-7] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[e5da49c0-c093-4214-bd23-c844516d1fad]
+2020-11-10 22:34:36.284 [http-nio-80-exec-7] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 22:34:36.287 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:34:36.287 [http-nio-80-exec-7] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46171337, java.lang.NullPointerException]
+2020-11-10 22:37:08.746 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:37:08.746 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:37:08.765 [http-nio-80-exec-8] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.ContentServiceImpl.getContentAndCategory()。参数为：[]
+2020-11-10 22:37:08.765 [http-nio-80-exec-9] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll()。参数为：[]
+2020-11-10 22:37:08.803 [http-nio-80-exec-8] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.ContentModel@105607cb, com.sst.service.model.ContentModel@32047d6c, com.sst.service.model.ContentModel@296cfd37]
+2020-11-10 22:37:08.814 [http-nio-80-exec-8] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory()执行完成。 后置
+2020-11-10 22:37:08.839 [http-nio-80-exec-9] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.GoodsCategoryModel@38df2fed, com.sst.service.model.GoodsCategoryModel@40934abc, com.sst.service.model.GoodsCategoryModel@6675e2f8]
+2020-11-10 22:37:08.839 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll()执行完成。 后置
+2020-11-10 22:37:19.490 [http-nio-80-exec-10] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5b4ff62]
+2020-11-10 22:37:19.506 [http-nio-80-exec-10] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4fae891]
+2020-11-10 22:37:19.506 [http-nio-80-exec-10] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-10 22:37:19.536 [http-nio-80-exec-10] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-10 22:37:19.660 [http-nio-80-exec-10] INFO  com.sst.log.Log - 返回值：58e43bc8-2b87-42a2-aab6-212ab58fbe57
+2020-11-10 22:37:19.661 [http-nio-80-exec-10] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-10 22:37:20.090 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 22:37:20.090 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 22:37:21.526 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@70043831]
+2020-11-10 22:37:21.533 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 22:37:21.533 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 22:37:21.539 [http-nio-80-exec-3] INFO  com.sst.log.Log - 返回值：UserDO [Hash = 1103014674, id=7, uname=, gender=1, age=0, telphone=15281022297, registerTime=Tue Oct 20 00:00:00 CST 2020, serialVersionUID=1]
+2020-11-10 22:37:21.539 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 22:37:21.597 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer)。参数为：[7]
+2020-11-10 22:37:21.728 [http-nio-80-exec-3] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.ShopCartModel@59dc693, com.sst.service.model.ShopCartModel@1e63b55b, com.sst.service.model.ShopCartModel@6fdff41e]
+2020-11-10 22:37:21.730 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer)执行完成。 后置
+2020-11-10 23:15:21.386 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-10 23:15:21.532 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.101.63:6379
+2020-11-10 23:15:21.547 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Network is unreachable: no further information: /192.168.101.63:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /192.168.101.63:6379
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-10 23:15:30.626 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:15:30.626 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Network is unreachable: no further information: /192.168.101.63:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /192.168.101.63:6379
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-10 23:15:38.836 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:15:38.836 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Network is unreachable: no further information: /192.168.101.63:6379
+io.netty.channel.AbstractChannel$AnnotatedSocketException: Network is unreachable: no further information: /192.168.101.63:6379
+Caused by: java.net.SocketException: Network is unreachable: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-10 23:15:55.226 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:15:58.029 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:16:28.135 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:16:32.576 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:17:02.632 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:17:12.655 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: connection timed out: /192.168.101.63:6379
+2020-11-10 23:17:42.735 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:17:46.678 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:18:16.736 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:18:26.760 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: connection timed out: /192.168.101.63:6379
+2020-11-10 23:18:56.827 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:19:00.915 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:19:30.933 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:19:33.508 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:20:03.532 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:20:08.256 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:20:09.115 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 23:20:09.115 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 23:20:38.328 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:20:41.880 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:20:53.007 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 23:20:53.007 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 23:20:59.799 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4218d651]
+2020-11-10 23:20:59.799 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:20:59.805 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:21:09.150 [http-nio-80-exec-7] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@74da67a4, org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)]
+2020-11-10 23:21:09.150 [http-nio-80-exec-6] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46171337, org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)]
+2020-11-10 23:21:11.926 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:21:15.723 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:21:45.733 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:21:53.031 [http-nio-80-exec-9] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@441d6b49, org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)]
+2020-11-10 23:21:53.033 [http-nio-80-exec-8] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@48a6c92f, org.springframework.dao.QueryTimeoutException: Redis command timed out; nested exception is io.lettuce.core.RedisCommandTimeoutException: Command timed out after 1 minute(s)]
+2020-11-10 23:21:55.745 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: connection timed out: /192.168.101.63:6379
+2020-11-10 23:21:59.832 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:21:59.840 [http-nio-80-exec-1] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@46fefd22, java.lang.NullPointerException]
+2020-11-10 23:22:25.839 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.63/<unresolved>:6379
+2020-11-10 23:22:29.912 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.63/<unresolved>:6379]: Connection refused: no further information: /192.168.101.63:6379
+2020-11-10 23:22:54.254 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 6308 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-10 23:22:54.254 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-10 23:22:54.258 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-10 23:22:55.394 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-10 23:22:55.394 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-10 23:22:55.434 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 19ms. Found 0 Redis repository interfaces.
+2020-11-10 23:22:56.168 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-10 23:22:56.186 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-10 23:22:56.186 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 23:22:56.191 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-10 23:22:56.289 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 23:22:56.290 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1949 ms
+2020-11-10 23:22:57.746 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 23:22:57.850 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-10 23:22:58.362 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-10 23:22:58.397 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-10 23:22:58.410 [main] INFO  com.sst.App - Started App in 4.646 seconds (JVM running for 6.186)
+2020-11-10 23:23:16.883 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 23:23:16.883 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 23:23:16.894 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-11-10 23:23:16.936 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@33ba38]
+2020-11-10 23:23:16.944 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:23:16.948 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:23:17.256 [http-nio-80-exec-1] INFO  com.sst.log.Log - 返回值：UserDO [Hash = 1734471906, id=7, uname=, gender=1, age=0, telphone=15281022297, registerTime=Tue Oct 20 00:00:00 CST 2020, serialVersionUID=1]
+2020-11-10 23:23:17.257 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:23:17.276 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer)。参数为：[7]
+2020-11-10 23:23:17.351 [http-nio-80-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-10 23:23:17.521 [http-nio-80-exec-1] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.ShopCartModel@224fa616, com.sst.service.model.ShopCartModel@55ce879a, com.sst.service.model.ShopCartModel@24617b7c]
+2020-11-10 23:23:17.522 [http-nio-80-exec-1] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer)执行完成。 后置
+2020-11-10 23:24:03.254 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@20e81bdf]
+2020-11-10 23:24:03.259 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:24:03.260 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:24:03.270 [http-nio-80-exec-2] INFO  com.sst.log.Log - 返回值：UserDO [Hash = 705720495, id=7, uname=, gender=1, age=0, telphone=15281022297, registerTime=Tue Oct 20 00:00:00 CST 2020, serialVersionUID=1]
+2020-11-10 23:24:03.271 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:27:47.755 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4043623]
+2020-11-10 23:27:47.755 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:27:47.765 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[58e43bc8-2b87-42a2-aab6-212ab58fbe57]
+2020-11-10 23:27:47.775 [http-nio-80-exec-3] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 23:27:47.791 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:27:47.792 [http-nio-80-exec-3] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@13580da8, java.lang.NullPointerException]
+2020-11-10 23:38:38.372 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 9928 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-10 23:38:38.372 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-10 23:38:38.391 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-10 23:38:39.492 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-10 23:38:39.492 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-10 23:38:39.552 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 31ms. Found 0 Redis repository interfaces.
+2020-11-10 23:38:40.389 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-10 23:38:40.406 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-10 23:38:40.406 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 23:38:40.411 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-10 23:38:40.518 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 23:38:40.519 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1999 ms
+2020-11-10 23:38:41.828 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 23:38:41.948 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-10 23:38:42.389 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-10 23:38:42.429 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-10 23:38:42.448 [main] INFO  com.sst.App - Started App in 4.675 seconds (JVM running for 6.308)
+2020-11-10 23:39:04.102 [http-nio-80-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 23:39:04.102 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 23:39:04.121 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2020-11-10 23:39:04.178 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 23:39:04.178 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 23:39:04.556 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.ContentServiceImpl.getContentAndCategory()。参数为：[]
+2020-11-10 23:39:04.556 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll()。参数为：[]
+2020-11-10 23:39:04.633 [http-nio-80-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-10 23:39:04.799 [http-nio-80-exec-1] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.ContentModel@2fac6a5e, com.sst.service.model.ContentModel@5bc4abe6, com.sst.service.model.ContentModel@6e59d446]
+2020-11-10 23:39:04.800 [http-nio-80-exec-1] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory()执行完成。 后置
+2020-11-10 23:39:04.802 [http-nio-80-exec-2] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.GoodsCategoryModel@7464985a, com.sst.service.model.GoodsCategoryModel@3dc1b65, com.sst.service.model.GoodsCategoryModel@993d9ef]
+2020-11-10 23:39:04.802 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll()执行完成。 后置
+2020-11-10 23:39:20.792 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@fd53c09]
+2020-11-10 23:39:20.813 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2588c356]
+2020-11-10 23:39:20.813 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-10 23:39:20.846 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-10 23:39:20.921 [http-nio-80-exec-3] INFO  com.sst.log.Log - 返回值：29b96c8b-0d7e-46ea-a894-01bbe09eb8c3
+2020-11-10 23:39:20.921 [http-nio-80-exec-3] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-10 23:39:21.488 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 23:39:21.488 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 23:39:25.309 [http-nio-80-exec-6] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@596174c4]
+2020-11-10 23:39:25.309 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:39:25.309 [http-nio-80-exec-6] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:39:25.332 [http-nio-80-exec-6] INFO  com.sst.log.Log - 返回值：UserDO [Hash = 496288039, id=7, uname=, gender=1, age=0, telphone=15281022297, registerTime=Tue Oct 20 00:00:00 CST 2020, serialVersionUID=1]
+2020-11-10 23:39:25.332 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:39:25.378 [http-nio-80-exec-6] INFO  com.sst.log.Log - 前置增加：执行方法：List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer)。参数为：[7]
+2020-11-10 23:39:25.424 [http-nio-80-exec-6] INFO  com.sst.log.Log - 返回值：[com.sst.service.model.ShopCartModel@1dc22f5e, com.sst.service.model.ShopCartModel@3c8acc0e, com.sst.service.model.ShopCartModel@7c94e0c]
+2020-11-10 23:39:25.424 [http-nio-80-exec-6] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer)执行完成。 后置
+2020-11-10 23:40:57.458 [http-nio-80-exec-7] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@809ad46]
+2020-11-10 23:40:57.459 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:40:57.459 [http-nio-80-exec-7] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:40:57.463 [http-nio-80-exec-7] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 23:40:57.466 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:40:57.467 [http-nio-80-exec-7] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@1190f09, java.lang.NullPointerException]
+2020-11-10 23:49:09.958 [http-nio-80-exec-8] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@7edb677f]
+2020-11-10 23:49:09.960 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:49:09.960 [http-nio-80-exec-8] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:49:09.963 [http-nio-80-exec-8] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 23:49:09.968 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:49:09.968 [http-nio-80-exec-8] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@1190f09, java.lang.NullPointerException]
+2020-11-10 23:49:58.923 [http-nio-80-exec-9] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6e3d631b]
+2020-11-10 23:49:58.926 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:49:58.927 [http-nio-80-exec-9] INFO  com.sst.log.Log - 前置增加：执行方法：UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)。参数为：[29b96c8b-0d7e-46ea-a894-01bbe09eb8c3]
+2020-11-10 23:49:58.933 [http-nio-80-exec-9] INFO  com.sst.log.Log - 异常代码：20004,异常信息：登录状态失效
+2020-11-10 23:49:58.943 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)执行完成。 后置
+2020-11-10 23:49:58.944 [http-nio-80-exec-9] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@1190f09, java.lang.NullPointerException]
+2020-11-10 23:51:17.052 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 7252 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-10 23:51:17.046 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-10 23:51:17.054 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-10 23:51:18.224 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-10 23:51:18.227 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-10 23:51:18.288 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 Redis repository interfaces.
+2020-11-10 23:51:19.304 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-10 23:51:19.319 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-10 23:51:19.321 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-10 23:51:19.322 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-10 23:51:19.486 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-10 23:51:19.487 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2338 ms
+2020-11-10 23:51:20.825 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-10 23:51:20.905 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-10 23:51:21.276 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-10 23:51:21.307 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-10 23:51:21.327 [main] INFO  com.sst.App - Started App in 4.785 seconds (JVM running for 6.565)
+2020-11-10 23:52:12.371 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-10 23:52:12.371 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-10 23:52:12.387 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-11-10 23:52:12.453 [http-nio-80-exec-1] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@710191e9, org.springframework.web.bind.MissingRequestHeaderException: Missing request header 'Authorization' for method parameter of type String]
+2020-11-10 23:52:15.235 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 23:52:15.238 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 23:52:15.888 [http-nio-80-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-10 23:52:30.947 [http-nio-80-exec-4] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@13f4ce98]
+2020-11-10 23:52:30.976 [http-nio-80-exec-4] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3513c609]
+2020-11-10 23:52:30.986 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-10 23:52:31.921 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getGoodsCategoryAll(),[]
+2020-11-10 23:52:31.921 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.GoodsController.getContent(),[]
+2020-11-10 23:52:33.185 [http-nio-80-exec-7] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@170efe91]
+2020-11-10 23:52:33.186 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[df4193f1-5011-45b9-8325-81ada0b55b34]
+2020-11-10 23:53:33.459 [http-nio-80-exec-8] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@38fe49ff]
+2020-11-10 23:53:33.459 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[df4193f1-5011-45b9-8325-81ada0b55b34]
+2020-11-10 23:53:33.469 [http-nio-80-exec-8] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@710191e9, com.sst.error.BusinessException]
+2020-11-10 23:54:53.228 [http-nio-80-exec-9] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6a839dcf]
+2020-11-10 23:54:53.234 [http-nio-80-exec-9] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@64447eef]
+2020-11-10 23:54:53.238 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-10 23:54:53.598 [http-nio-80-exec-10] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@59355f55]
+2020-11-10 23:54:53.598 [http-nio-80-exec-10] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e800eba1-6865-466b-bef6-7f02b81d8785]
+2020-11-10 23:55:40.330 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@7dd161a2]
+2020-11-10 23:55:40.336 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e800eba1-6865-466b-bef6-7f02b81d8785]
+2020-11-10 23:56:52.265 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@13d65a25]
+2020-11-10 23:56:52.266 [http-nio-80-exec-3] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e800eba1-6865-466b-bef6-7f02b81d8785]
+2020-11-10 23:56:52.273 [http-nio-80-exec-3] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@710191e9, com.sst.error.BusinessException]
+2020-11-10 23:57:06.404 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2dbfcac6]
+2020-11-10 23:57:06.405 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@32068717]
+2020-11-10 23:57:06.412 [http-nio-80-exec-2] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-10 23:57:06.596 [http-nio-80-exec-4] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@36741f08]
+2020-11-10 23:57:06.596 [http-nio-80-exec-4] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[6302de74-b117-49c1-98d4-124edbc13a0a]
+2020-11-11 00:05:37.070 [http-nio-80-exec-6] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@13493fb8]
+2020-11-11 00:05:37.078 [http-nio-80-exec-6] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[6302de74-b117-49c1-98d4-124edbc13a0a]
+2020-11-11 00:05:37.093 [http-nio-80-exec-6] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@710191e9, com.sst.error.BusinessException]
+2020-11-11 00:05:53.154 [http-nio-80-exec-5] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2c72a6be]
+2020-11-11 00:05:53.159 [http-nio-80-exec-5] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@676a1547]
+2020-11-11 00:05:53.162 [http-nio-80-exec-5] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-11 00:05:53.352 [http-nio-80-exec-7] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@52f05178]
+2020-11-11 00:05:53.354 [http-nio-80-exec-7] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e6273f59-568f-4b54-bd6b-849c1cb3a3da]
+2020-11-11 00:06:37.735 [http-nio-80-exec-8] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3d7fa405]
+2020-11-11 00:06:37.738 [http-nio-80-exec-8] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e6273f59-568f-4b54-bd6b-849c1cb3a3da]
+2020-11-11 00:06:54.444 [http-nio-80-exec-9] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@447b4652]
+2020-11-11 00:06:54.448 [http-nio-80-exec-9] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[e6273f59-568f-4b54-bd6b-849c1cb3a3da]
+2020-11-11 00:06:54.460 [http-nio-80-exec-9] INFO  com.sst.log.Log - Object com.sst.controller.BaesController.handlerException(HttpServletRequest,Exception),[org.apache.catalina.connector.RequestFacade@710191e9, com.sst.error.BusinessException]
+2020-11-11 00:07:04.106 [http-nio-80-exec-10] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@99a411]
+2020-11-11 00:07:04.110 [http-nio-80-exec-10] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@61f4cf70]
+2020-11-11 00:07:04.110 [http-nio-80-exec-10] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.UserController.loginByPassword(String,String),[15281022297, 123456]
+2020-11-11 00:07:04.508 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.controller.BaesController.initDate(WebDataBinder),[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4d88a0f4]
+2020-11-11 00:07:04.508 [http-nio-80-exec-1] INFO  com.sst.log.Log - CommonReturnType com.sst.controller.ShopController.getCartByUserId(String),[3718b3d9-ebec-4eb6-a4b1-c11bfd6e2b96]

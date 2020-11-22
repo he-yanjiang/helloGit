@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sst.mapper.ItemDOMapper">
+  <resultMap id="BaseResultMap" type="com.sst.bean.ItemDO">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="title" jdbcType="VARCHAR" property="title" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="stock" jdbcType="INTEGER" property="stock" />
+    <result column="default_image" jdbcType="VARCHAR" property="defaultImage" />
+    <result column="category3_id" jdbcType="INTEGER" property="category3Id" />
+    <result column="status" jdbcType="INTEGER" property="status" />
+    <result column="crate_time" jdbcType="TIMESTAMP" property="crateTime" />
+    <result column="update_time" jdbcType="TIMESTAMP" property="updateTime" />
+    <result column="is_default" jdbcType="INTEGER" property="isDefault" />
+    <result column="goods_id" jdbcType="INTEGER" property="goodsId" />
+    <result column="spec" jdbcType="VARCHAR" property="spec" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, title, price, stock, default_image, category3_id, status, crate_time, update_time,
+    is_default, goods_id, spec
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tb_item
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="getItemByGoodsId" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from tb_item
+    where goods_id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from tb_item
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sst.bean.ItemDO">
+    insert into tb_item (id, title, price, 
+      stock, default_image, category3_id, 
+      status, crate_time, update_time,
+      is_default, goods_id, spec
+      )
+    values (#{id,jdbcType=INTEGER}, #{title,jdbcType=VARCHAR}, #{price,jdbcType=DECIMAL}, 
+      #{stock,jdbcType=INTEGER}, #{defaultImage,jdbcType=VARCHAR}, #{category3Id,jdbcType=INTEGER}, 
+      #{status,jdbcType=INTEGER}, #{crateTime,jdbcType=TIMESTAMP}, #{updateTime,jdbcType=TIMESTAMP}, 
+      #{isDefault,jdbcType=INTEGER}, #{goodsId,jdbcType=INTEGER}, #{spec,jdbcType=VARCHAR}
+      )
+  </insert>
+  <insert id="insertSelective" parameterType="com.sst.bean.ItemDO" keyProperty="id" useGeneratedKeys="true">
+    insert into tb_item
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="title != null">
+        title,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="stock != null">
+        stock,
+      </if>
+      <if test="defaultImage != null">
+        default_image,
+      </if>
+      <if test="category3Id != null">
+        category3_id,
+      </if>
+      <if test="status != null">
+        status,
+      </if>
+      <if test="crateTime != null">
+        crate_time,
+      </if>
+      <if test="updateTime != null">
+        update_time,
+      </if>
+      <if test="isDefault != null">
+        is_default,
+      </if>
+      <if test="goodsId != null">
+        goods_id,
+      </if>
+      <if test="spec != null">
+        spec,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="title != null">
+        #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="stock != null">
+        #{stock,jdbcType=INTEGER},
+      </if>
+      <if test="defaultImage != null">
+        #{defaultImage,jdbcType=VARCHAR},
+      </if>
+      <if test="category3Id != null">
+        #{category3Id,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        #{status,jdbcType=INTEGER},
+      </if>
+      <if test="crateTime != null">
+        #{crateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="isDefault != null">
+        #{isDefault,jdbcType=INTEGER},
+      </if>
+      <if test="goodsId != null">
+        #{goodsId,jdbcType=INTEGER},
+      </if>
+      <if test="spec != null">
+        #{spec,jdbcType=VARCHAR},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sst.bean.ItemDO">
+    update tb_item
+    <set>
+      <if test="title != null">
+        title = #{title,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="stock != null">
+        stock = #{stock,jdbcType=INTEGER},
+      </if>
+      <if test="defaultImage != null">
+        default_image = #{defaultImage,jdbcType=VARCHAR},
+      </if>
+      <if test="category3Id != null">
+        category3_id = #{category3Id,jdbcType=INTEGER},
+      </if>
+      <if test="status != null">
+        status = #{status,jdbcType=INTEGER},
+      </if>
+      <if test="crateTime != null">
+        crate_time = #{crateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="updateTime != null">
+        update_time = #{updateTime,jdbcType=TIMESTAMP},
+      </if>
+      <if test="isDefault != null">
+        is_default = #{isDefault,jdbcType=INTEGER},
+      </if>
+      <if test="goodsId != null">
+        goods_id = #{goodsId,jdbcType=INTEGER},
+      </if>
+      <if test="spec != null">
+        spec = #{spec,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sst.bean.ItemDO">
+    update tb_item
+    set title = #{title,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DECIMAL},
+      stock = #{stock,jdbcType=INTEGER},
+      default_image = #{defaultImage,jdbcType=VARCHAR},
+      category3_id = #{category3Id,jdbcType=INTEGER},
+      status = #{status,jdbcType=INTEGER},
+      crate_time = #{crateTime,jdbcType=TIMESTAMP},
+      update_time = #{updateTime,jdbcType=TIMESTAMP},
+      is_default = #{isDefault,jdbcType=INTEGER},
+      goods_id = #{goodsId,jdbcType=INTEGER},
+      spec = #{spec,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

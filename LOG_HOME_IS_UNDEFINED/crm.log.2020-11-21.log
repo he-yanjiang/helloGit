@@ -1,0 +1,155 @@
+2020-11-21 13:46:51.354 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-21 13:46:51.413 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 9060 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-21 13:46:51.416 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-21 13:46:52.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 13:46:52.892 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-21 13:46:52.952 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-11-21 13:46:54.345 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-21 13:46:54.364 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-21 13:46:54.365 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-21 13:46:54.366 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 13:46:54.607 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-21 13:46:54.608 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3025 ms
+2020-11-21 13:46:57.337 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 13:46:57.531 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-21 13:46:58.161 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-21 13:46:58.197 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-21 13:46:58.213 [main] INFO  com.sst.App - Started App in 7.62 seconds (JVM running for 9.733)
+2020-11-21 13:47:14.446 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 13:47:14.447 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-21 13:47:14.467 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 20 ms
+2020-11-21 13:49:07.678 [http-nio-80-exec-4] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@558837e, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 13:54:13.797 [http-nio-80-exec-7] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@558837e, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 13:57:55.153 [http-nio-80-exec-10] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@558837e, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 14:05:54.546 [http-nio-80-exec-3] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@558837e, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 14:06:39.231 [http-nio-80-exec-5] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@558837e, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 14:15:15.985 [http-nio-80-exec-7] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@558837e, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 14:19:57.359 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-21 14:19:57.373 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 1732 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-21 14:19:57.376 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-21 14:19:58.608 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 14:19:58.611 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-21 14:19:58.648 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-11-21 14:19:59.530 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-21 14:19:59.540 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-21 14:19:59.541 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-21 14:19:59.541 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 14:19:59.644 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-21 14:19:59.644 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2085 ms
+2020-11-21 14:20:00.897 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 14:20:00.995 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-21 14:20:01.440 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-21 14:20:01.480 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-21 14:20:01.492 [main] INFO  com.sst.App - Started App in 4.838 seconds (JVM running for 6.992)
+2020-11-21 14:20:23.956 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 14:20:23.957 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-21 14:20:23.975 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 18 ms
+2020-11-21 14:20:24.039 [http-nio-80-exec-1] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@365ee42b, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 14:22:09.920 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-21 14:22:09.952 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 10508 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-21 14:22:09.956 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-21 14:22:11.136 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 14:22:11.139 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-21 14:22:11.181 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-11-21 14:22:11.941 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-21 14:22:11.951 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-21 14:22:11.952 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-21 14:22:11.952 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 14:22:12.073 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-21 14:22:12.074 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1989 ms
+2020-11-21 14:22:13.387 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 14:22:13.485 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-21 14:22:13.923 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-21 14:22:13.948 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-21 14:22:13.961 [main] INFO  com.sst.App - Started App in 4.629 seconds (JVM running for 6.74)
+2020-11-21 14:22:21.449 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 14:22:21.451 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-21 14:22:21.483 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 32 ms
+2020-11-21 14:22:21.593 [http-nio-80-exec-1] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@67718e68, java.lang.NullPointerException]
+2020-11-21 14:22:55.453 [http-nio-80-exec-2] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@67718e68, java.lang.NullPointerException]
+2020-11-21 14:25:23.410 [http-nio-80-exec-4] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@67718e68, java.lang.NullPointerException]
+2020-11-21 14:29:45.004 [http-nio-80-exec-6] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@67718e68, java.lang.NullPointerException]
+2020-11-21 14:30:21.806 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-21 14:30:21.806 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 12792 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-21 14:30:21.812 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-21 14:30:23.120 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 14:30:23.123 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-21 14:30:23.168 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-11-21 14:30:24.047 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-21 14:30:24.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-21 14:30:24.057 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-21 14:30:24.058 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 14:30:24.157 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-21 14:30:24.157 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2173 ms
+2020-11-21 14:30:25.826 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 14:30:25.988 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-21 14:30:26.438 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-21 14:30:26.471 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-21 14:30:26.489 [main] INFO  com.sst.App - Started App in 5.266 seconds (JVM running for 7.136)
+2020-11-21 14:30:43.163 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 14:30:43.164 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-21 14:30:43.189 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 24 ms
+2020-11-21 14:30:43.273 [http-nio-80-exec-1] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@7a5748bd, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 14:35:18.577 [http-nio-80-exec-4] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2020-11-21 14:37:05.958 [http-nio-80-exec-7] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2020-11-21 14:37:18.647 [http-nio-80-exec-8] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2020-11-21 15:15:57.476 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-21 15:15:57.493 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 11460 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-21 15:15:57.495 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-21 15:15:58.566 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 15:15:58.568 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-21 15:15:58.601 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 20ms. Found 0 Redis repository interfaces.
+2020-11-21 15:15:59.662 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-21 15:15:59.674 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-21 15:15:59.674 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-21 15:15:59.675 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 15:15:59.829 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-21 15:15:59.830 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2230 ms
+2020-11-21 15:16:01.532 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 15:16:01.660 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-21 15:16:02.258 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-21 15:16:02.298 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-21 15:16:02.319 [main] INFO  com.sst.App - Started App in 5.362 seconds (JVM running for 7.022)
+2020-11-21 15:16:28.441 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 15:16:28.441 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-21 15:16:28.460 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2020-11-21 15:16:28.524 [http-nio-80-exec-1] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2020-11-21 15:17:18.485 [http-nio-80-exec-3] WARN  o.s.w.s.m.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpMediaTypeNotSupportedException: Content type 'application/json;charset=UTF-8' not supported]
+2020-11-21 15:18:04.946 [http-nio-80-exec-4] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@361bf07d, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 15:22:20.848 [http-nio-80-exec-6] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@361bf07d, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 15:25:20.438 [http-nio-80-exec-8] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@361bf07d, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 15:26:59.526 [http-nio-80-exec-10] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@361bf07d, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userTelephone' is not present]
+2020-11-21 15:29:52.277 [http-nio-80-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-21 15:30:03.144 [http-nio-80-exec-2] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-21 15:30:03.146 [http-nio-80-exec-2] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@361bf07d, org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 192.168.101.242/<unresolved>:6379]
+2020-11-21 15:31:16.324 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-21 15:31:16.341 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 7532 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-21 15:31:16.344 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-21 15:31:17.557 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-21 15:31:17.560 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-21 15:31:17.610 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 32ms. Found 0 Redis repository interfaces.
+2020-11-21 15:31:18.390 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-21 15:31:18.432 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-21 15:31:18.433 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-21 15:31:18.434 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-21 15:31:18.532 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-21 15:31:18.535 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2046 ms
+2020-11-21 15:31:19.889 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-21 15:31:19.986 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-21 15:31:20.411 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-21 15:31:20.437 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-21 15:31:20.449 [main] INFO  com.sst.App - Started App in 4.648 seconds (JVM running for 6.109)
+2020-11-21 15:31:31.436 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-21 15:31:31.437 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-21 15:31:31.456 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2020-11-21 15:31:31.633 [http-nio-80-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-21 15:31:32.342 [http-nio-80-exec-1] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-21 15:33:26.399 [http-nio-80-exec-3] INFO  com.sst.log.Log - 方法String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)参数[15281022295, ZTfpmvLCIjZC359woLWvyg==]抛出异常：20001,用户不存在
+2020-11-21 15:33:26.400 [http-nio-80-exec-3] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022295, ZTfpmvLCIjZC359woLWvyg==]
+2020-11-21 15:33:26.407 [http-nio-80-exec-3] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@125bd159, com.sst.error.BusinessException]
+2020-11-21 15:33:46.432 [http-nio-80-exec-4] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-21 15:34:00.442 [http-nio-80-exec-5] INFO  com.sst.log.Log - 方法String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)参数[1521022297, 4QrcOUm6Wau+VuBX8g+IPg==]抛出异常：20001,用户不存在
+2020-11-21 15:34:00.443 [http-nio-80-exec-5] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[1521022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-21 15:34:00.445 [http-nio-80-exec-5] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@125bd159, com.sst.error.BusinessException]
+2020-11-21 15:34:14.578 [http-nio-80-exec-6] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-21 15:34:14.754 [http-nio-80-exec-7] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsServiceImpl.getGoodsListByOne(Integer),[1]

@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sst.mapper.GoodsDOMapper">
+  <resultMap id="BaseResultMap" type="com.sst.bean.GoodsDO">
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="goods_name" jdbcType="VARCHAR" property="goodsName" />
+    <result column="audit_status" jdbcType="INTEGER" property="auditStatus" />
+    <result column="is_marketable" jdbcType="INTEGER" property="isMarketable" />
+    <result column="brand_id" jdbcType="INTEGER" property="brandId" />
+    <result column="caption" jdbcType="VARCHAR" property="caption" />
+    <result column="category1_id" jdbcType="INTEGER" property="category1Id" />
+    <result column="category2_id" jdbcType="INTEGER" property="category2Id" />
+    <result column="category3_id" jdbcType="INTEGER" property="category3Id" />
+    <result column="small_pic" jdbcType="VARCHAR" property="smallPic" />
+    <result column="price" jdbcType="DECIMAL" property="price" />
+    <result column="is_enable_spec" jdbcType="INTEGER" property="isEnableSpec" />
+    <result column="introduction" jdbcType="VARCHAR" property="introduction" />
+    <result column="package_list" jdbcType="VARCHAR" property="packageList" />
+    <result column="sale_service" jdbcType="VARCHAR" property="saleService" />
+    <result column="sales" jdbcType="INTEGER" property="sales" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    id, goods_name, audit_status, is_marketable, brand_id, caption,
+    category1_id, category2_id, category3_id, small_pic, price, is_enable_spec, introduction,
+    package_list, sale_service, sales
+  </sql>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select 
+    <include refid="Base_Column_List" />
+    from tb_goods
+    where id = #{id,jdbcType=INTEGER}
+  </select>
+
+  <select id="getGoodsListByOne" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from tb_goods
+    where category1_id = #{category1Id,jdbcType=INTEGER}
+  </select>
+
+  <select id="getGoodsListByTwo" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from tb_goods
+    where category2_id = #{category2Id,jdbcType=INTEGER}
+  </select>
+
+  <select id="getGoodsListByThree" parameterType="java.lang.Integer" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from tb_goods
+    where category3_id = #{category3Id,jdbcType=INTEGER}
+  </select>
+
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer">
+    delete from tb_goods
+    where id = #{id,jdbcType=INTEGER}
+  </delete>
+  <insert id="insert" parameterType="com.sst.bean.GoodsDO">
+    insert into tb_goods (id, goods_name,
+      audit_status, is_marketable, brand_id, 
+      caption, category1_id, category2_id, 
+      category3_id, small_pic, price, 
+      is_enable_spec, introduction, package_list,
+      sale_service, sales)
+    values (#{id,jdbcType=INTEGER}, #{goodsName,jdbcType=VARCHAR},
+      #{auditStatus,jdbcType=INTEGER}, #{isMarketable,jdbcType=INTEGER}, #{brandId,jdbcType=INTEGER}, 
+      #{caption,jdbcType=VARCHAR}, #{category1Id,jdbcType=INTEGER}, #{category2Id,jdbcType=INTEGER}, 
+      #{category3Id,jdbcType=INTEGER}, #{smallPic,jdbcType=VARCHAR}, #{price,jdbcType=DECIMAL}, 
+      #{isEnableSpec,jdbcType=INTEGER}, #{introduction,jdbcType=VARCHAR}, #{packageList,jdbcType=VARCHAR},
+      #{saleService,jdbcType=VARCHAR}, #{sales,jdbcType=INTEGER})
+  </insert>
+  <insert id="insertSelective" parameterType="com.sst.bean.GoodsDO" keyProperty="id" useGeneratedKeys="true">
+    insert into tb_goods
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        id,
+      </if>
+      <if test="goodsName != null">
+        goods_name,
+      </if>
+      <if test="auditStatus != null">
+        audit_status,
+      </if>
+      <if test="isMarketable != null">
+        is_marketable,
+      </if>
+      <if test="brandId != null">
+        brand_id,
+      </if>
+      <if test="caption != null">
+        caption,
+      </if>
+      <if test="category1Id != null">
+        category1_id,
+      </if>
+      <if test="category2Id != null">
+        category2_id,
+      </if>
+      <if test="category3Id != null">
+        category3_id,
+      </if>
+      <if test="smallPic != null">
+        small_pic,
+      </if>
+      <if test="price != null">
+        price,
+      </if>
+      <if test="isEnableSpec != null">
+        is_enable_spec,
+      </if>
+      <if test="introduction != null">
+        introduction,
+      </if>
+      <if test="packageList != null">
+        package_list,
+      </if>
+      <if test="saleService != null">
+        sale_service,
+      </if>
+      <if test="sales != null">
+        sales,
+      </if>
+    </trim>
+    <trim prefix="values (" suffix=")" suffixOverrides=",">
+      <if test="id != null">
+        #{id,jdbcType=INTEGER},
+      </if>
+      <if test="goodsName != null">
+        #{goodsName,jdbcType=VARCHAR},
+      </if>
+      <if test="auditStatus != null">
+        #{auditStatus,jdbcType=INTEGER},
+      </if>
+      <if test="isMarketable != null">
+        #{isMarketable,jdbcType=INTEGER},
+      </if>
+      <if test="brandId != null">
+        #{brandId,jdbcType=INTEGER},
+      </if>
+      <if test="caption != null">
+        #{caption,jdbcType=VARCHAR},
+      </if>
+      <if test="category1Id != null">
+        #{category1Id,jdbcType=INTEGER},
+      </if>
+      <if test="category2Id != null">
+        #{category2Id,jdbcType=INTEGER},
+      </if>
+      <if test="category3Id != null">
+        #{category3Id,jdbcType=INTEGER},
+      </if>
+      <if test="smallPic != null">
+        #{smallPic,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="isEnableSpec != null">
+        #{isEnableSpec,jdbcType=INTEGER},
+      </if>
+      <if test="introduction != null">
+        #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="packageList != null">
+        #{packageList,jdbcType=VARCHAR},
+      </if>
+      <if test="saleService != null">
+        #{saleService,jdbcType=VARCHAR},
+      </if>
+      <if test="sales != null">
+        #{sales,jdbcType=INTEGER},
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKeySelective" parameterType="com.sst.bean.GoodsDO">
+    update tb_goods
+    <set>
+      <if test="goodsName != null">
+        goods_name = #{goodsName,jdbcType=VARCHAR},
+      </if>
+      <if test="auditStatus != null">
+        audit_status = #{auditStatus,jdbcType=INTEGER},
+      </if>
+      <if test="isMarketable != null">
+        is_marketable = #{isMarketable,jdbcType=INTEGER},
+      </if>
+      <if test="brandId != null">
+        brand_id = #{brandId,jdbcType=INTEGER},
+      </if>
+      <if test="caption != null">
+        caption = #{caption,jdbcType=VARCHAR},
+      </if>
+      <if test="category1Id != null">
+        category1_id = #{category1Id,jdbcType=INTEGER},
+      </if>
+      <if test="category2Id != null">
+        category2_id = #{category2Id,jdbcType=INTEGER},
+      </if>
+      <if test="category3Id != null">
+        category3_id = #{category3Id,jdbcType=INTEGER},
+      </if>
+      <if test="smallPic != null">
+        small_pic = #{smallPic,jdbcType=VARCHAR},
+      </if>
+      <if test="price != null">
+        price = #{price,jdbcType=DECIMAL},
+      </if>
+      <if test="isEnableSpec != null">
+        is_enable_spec = #{isEnableSpec,jdbcType=INTEGER},
+      </if>
+      <if test="introduction != null">
+        introduction = #{introduction,jdbcType=VARCHAR},
+      </if>
+      <if test="packageList != null">
+        package_list = #{packageList,jdbcType=VARCHAR},
+      </if>
+      <if test="saleService != null">
+        sale_service = #{saleService,jdbcType=VARCHAR},
+      </if>
+      <if test="sales != null">
+        sales = #{sales,jdbcType=VARCHAR},
+      </if>
+    </set>
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+  <update id="updateByPrimaryKey" parameterType="com.sst.bean.GoodsDO">
+    update tb_goods
+    set goods_name = #{goodsName,jdbcType=VARCHAR},
+      audit_status = #{auditStatus,jdbcType=INTEGER},
+      is_marketable = #{isMarketable,jdbcType=INTEGER},
+      brand_id = #{brandId,jdbcType=INTEGER},
+      caption = #{caption,jdbcType=VARCHAR},
+      category1_id = #{category1Id,jdbcType=INTEGER},
+      category2_id = #{category2Id,jdbcType=INTEGER},
+      category3_id = #{category3Id,jdbcType=INTEGER},
+      small_pic = #{smallPic,jdbcType=VARCHAR},
+      price = #{price,jdbcType=DECIMAL},
+      is_enable_spec = #{isEnableSpec,jdbcType=INTEGER},
+      introduction = #{introduction,jdbcType=VARCHAR},
+      package_list = #{packageList,jdbcType=VARCHAR},
+      sale_service = #{saleService,jdbcType=VARCHAR},
+      sales = #{sales,jdbcType=INTEGER}
+    where id = #{id,jdbcType=INTEGER}
+  </update>
+</mapper>

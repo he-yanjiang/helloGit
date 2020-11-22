@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="Dashboard">
+  <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+  <title>后台管理</title>
+
+  <link href="../img/favicon.png" rel="icon">
+  <link href="../img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <link href="../lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet" />
+
+  <link href="../css/style.css" rel="stylesheet">
+  <link href="../css/style-responsive.css" rel="stylesheet">
+
+</head>
+
+<body ng-app="myApp" ng-controller="myController">
+  <div id="login-page">
+    <div class="container">
+      <form class="form-login">
+        <h2 class="form-login-heading">管理员登录</h2>
+        <div class="login-wrap">
+          <input type="text" class="form-control" ng-model="userTelephone" placeholder="账 号" autofocus >
+          <br>
+          <input type="password" ng-model="userPassword" class="form-control" placeholder="密 码">
+
+          <button class="btn btn-theme btn-block" style="margin-top: 40px" type="submit" ng-click="login()"><i class="fa fa-lock"></i> 登 录</button>
+        </div>
+        <!-- modal -->
+      </form>
+    </div>
+  </div>
+
+  <script src="../lib/jquery/jquery.min.js"></script>
+  <script type="text/javascript" src="../lib/jquery.backstretch.min.js"></script>
+  <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+  <script>
+    $.backstretch("../img/login-bg.jpg", {
+      speed: 500
+    });
+  </script>
+
+  <script>
+    var app=angular.module("myApp",[]);
+    app.controller("myController",function ($scope,$http){
+      $scope.login=function (){
+        if ($scope.userTelephone==null || $scope.userTelephone==""){
+          alert("账号不能为空");
+          return false;
+        }
+        if ($scope.userPassword==null || $scope.userPassword==""){
+          alert("密码不能为空");
+          return false;
+        }
+        $http({
+          method: "POST",
+          url: "http://localhost/user/loginByPassword",
+          data: {userTelephone: $scope.userTelephone,
+            userPassword: $scope.userPassword
+          },
+          headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+          transformRequest: function(obj) {
+            var str = [];
+            for (var s in obj) {
+              str.push(encodeURIComponent(s) + "=" + encodeURIComponent(obj[s]));
+            }
+            return str.join("&");
+          }
+        }).success(
+                function (response){
+                  if (response.status=='success'){
+                    window.location.href="goods_list.html";
+                  }else {
+                    alert("登录失败，原因为" + response.data.errMsg);
+                  }
+                }
+        )
+      }
+
+    })
+
+  </script>
+</body>
+
+</html>

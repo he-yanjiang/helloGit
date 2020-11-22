@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="form-group form-row">
+    <label class="col-sm-2 control-label uText">俱乐部相册</label><div class="row">
+    <div class="col-xs-10 col-sm-8 mTop5">
+        <label title="上传俱乐部相册" for="ClubImagesUpload" id="btnClubImg" class="col-sm-2">
+
+            <input type="file" accept="image/*" name="ClubImagesUpload" id="ClubImagesUpload" class="hide" multiple="multiple">
+
+            <img src="/Images/registerNewSite/btn_addimg.png" class="addImg"/>
+        </label>
+    </div>
+</div></div>
+<div class="form-group form-row" id="preViewMore"><div class="row">
+    <div class="col-xs-9">
+        <div id="clubInputImagePreview" class="col-sm-9 img-preview img-preview-sm"></div>
+    </div>
+</div></div>
+</body>
+<script>
+    var intP = 0;
+    $("#btnClubImg").click(function() {
+        var $input = $("#ClubImagesUpload");
+        //            console.log($input);
+        $input.on("change",
+            function () {
+                //                    console.log(this);
+                var files = this.files;
+                var length = files.length;
+                if (intP > 8) {
+                    layer.msg('图片不能再多了～', {});
+                    return;
+                }
+
+                $.each(files,
+                    function (key, value) {
+                        var fileReader = new FileReader();
+                        var file_ = files[key];
+                        if (/^image\/\w+$/.test(file_.type)) {
+                            fileReader.onload = function() {
+                                if (intP > 8) {
+                                    layer.msg('图片不能再多了～', {});
+                                    return;
+                                }
+                                if (key == 0 && intP == 0) {
+                                    console.log(this.result);
+                                    $("#clubInputImagePreview").css("background-image", "url(" + this.result + ")");
+
+                                    $("#clubInputImagePreview")
+                                        .append(
+                                            "<img src='/Images/registerNewSite/btn_r_del.png' class='clubsImage'  id='ImgRemove' />");
+
+                                    $("#clubInputImagePreview").after(
+                                        "<div id='clubInputImagePreview1' class='col-sm-9 img-preview img-preview-sm delImg'></div>");
+                                } else {
+                                    $("#clubInputImagePreview" + parseInt(intP) + "").css("background-image",
+                                        "url(" + this.result + ")");
+
+                                    $("#clubInputImagePreview" + parseInt(intP) + "").append(
+                                        "<img src='/Images/registerNewSite/btn_r_del.png' class='clubsImage'  id='ImgRemove" +
+                                        parseInt(parseInt(1) + parseInt(intP)) +"' />");
+
+                                    $("#clubInputImagePreview" + parseInt(intP) + "").after(
+                                        "<div id='clubInputImagePreview" +
+                                        parseInt(parseInt(1) + parseInt(intP)) +
+                                        "'class='col-sm-9 img-preview img-preview-sm delImg' ></div>");
+                                }
+                                if (key == 0 && intP == 0) {
+                                    $("#ImgRemove").click(function () {
+                                        $(this).parent().remove();
+                                    });
+                                } else {
+                                    $("#ImgRemove" + parseInt(parseInt(1) + parseInt(intP)) + "").click(function () {
+                                        $(this).parent().remove();
+                                    });
+                                }
+
+                                intP += parseInt(1);
+                            };
+                            fileReader.readAsDataURL(value);
+                        } else {
+                            layer.msg("格式错误<br/>请选择一个图片文件");
+                        }
+                    });
+
+
+            });
+
+
+        $input.removeAttr("id");
+        var newInput =
+            '<input type="file" accept="image/*" name="ClubImagesUpload" id="ClubImagesUpload" class="hide" multiple="multiple">';
+
+        $(this).append($(newInput));
+
+    });
+</script>
+</html>

@@ -1,0 +1,349 @@
+2020-11-06 00:32:02.404 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 7308 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 00:32:02.404 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 00:32:02.409 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 00:32:03.720 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 00:32:03.722 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 00:32:03.759 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 22ms. Found 0 Redis repository interfaces.
+2020-11-06 00:32:04.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 00:32:04.626 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 00:32:04.627 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 00:32:04.627 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 00:32:04.743 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 00:32:04.744 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2144 ms
+2020-11-06 00:32:06.029 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 00:32:06.120 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 00:32:06.556 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 00:32:06.603 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 00:32:06.619 [main] INFO  com.sst.App - Started App in 4.807 seconds (JVM running for 7.65)
+2020-11-06 00:32:21.952 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 00:32:21.952 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 00:32:21.962 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-11-06 00:32:21.986 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[Ljava.lang.Object;@67de0644
+2020-11-06 00:32:22.311 [http-nio-80-exec-1] INFO  com.sst.log.Log - 返回值：null
+2020-11-06 00:32:22.312 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 00:32:39.185 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[Ljava.lang.Object;@48b5ba34
+2020-11-06 00:32:39.192 [http-nio-80-exec-2] INFO  com.sst.log.Log - 异常信息：null
+2020-11-06 00:32:39.195 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 00:32:43.341 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[Ljava.lang.Object;@2ce092a3
+2020-11-06 00:32:43.343 [http-nio-80-exec-3] INFO  com.sst.log.Log - 异常信息：null
+2020-11-06 00:32:43.348 [http-nio-80-exec-3] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 00:33:21.383 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 00:33:21.388 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 8920 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 00:33:21.390 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 00:33:22.477 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 00:33:22.479 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 00:33:22.523 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 30ms. Found 0 Redis repository interfaces.
+2020-11-06 00:33:23.289 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 00:33:23.297 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 00:33:23.298 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 00:33:23.299 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 00:33:23.405 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 00:33:23.406 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1928 ms
+2020-11-06 00:33:24.619 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 00:33:24.723 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 00:33:25.133 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 00:33:25.169 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 00:33:25.181 [main] INFO  com.sst.App - Started App in 4.372 seconds (JVM running for 6.847)
+2020-11-06 00:33:35.148 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 00:33:35.148 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 00:33:35.160 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-06 00:33:35.189 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[Ljava.lang.Object;@d7183c3
+2020-11-06 00:33:35.501 [http-nio-80-exec-1] INFO  com.sst.log.Log - 异常信息：com.sst.error.BusinessException
+2020-11-06 00:33:35.503 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 00:38:35.569 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 9812 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 00:38:35.569 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 00:38:35.573 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 00:38:36.594 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 00:38:36.597 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 00:38:36.632 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 21ms. Found 0 Redis repository interfaces.
+2020-11-06 00:38:37.391 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 00:38:37.399 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 00:38:37.400 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 00:38:37.400 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 00:38:37.504 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 00:38:37.505 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1848 ms
+2020-11-06 00:38:38.725 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 00:38:38.816 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 00:38:39.227 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 00:38:39.263 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 00:38:39.282 [main] INFO  com.sst.App - Started App in 4.369 seconds (JVM running for 6.951)
+2020-11-06 00:38:49.069 [http-nio-80-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 00:38:49.069 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 00:38:49.082 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-11-06 00:38:49.103 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[15281022297]
+2020-11-06 00:38:49.464 [http-nio-80-exec-2] INFO  com.sst.log.Log - 返回值：null
+2020-11-06 00:38:49.464 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 00:39:04.671 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[15281022297]
+2020-11-06 00:39:04.681 [http-nio-80-exec-1] INFO  com.sst.log.Log - 异常信息：验证码已发送,10002
+2020-11-06 00:39:04.685 [http-nio-80-exec-1] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 00:40:45.787 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 12756 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 00:40:45.793 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 00:40:45.806 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 00:40:46.978 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 00:40:46.981 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 00:40:47.017 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 24ms. Found 0 Redis repository interfaces.
+2020-11-06 00:40:47.869 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 00:40:47.880 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 00:40:47.881 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 00:40:47.881 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 00:40:47.996 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 00:40:47.997 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2001 ms
+2020-11-06 00:40:49.368 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 00:40:49.468 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 00:40:49.842 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 00:40:49.892 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 00:40:49.906 [main] INFO  com.sst.App - Started App in 4.796 seconds (JVM running for 7.44)
+2020-11-06 00:40:54.758 [http-nio-80-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 00:40:54.759 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 00:40:54.771 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-06 00:40:54.794 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：void com.sst.service.impl.UserServiceImpl.getOtp(String)。参数为：[15281022297]
+2020-11-06 00:40:55.108 [http-nio-80-exec-2] INFO  com.sst.log.Log - 异常代码：10002,异常提示验证码已发送
+2020-11-06 00:40:55.110 [http-nio-80-exec-2] INFO  com.sst.log.Log - void com.sst.service.impl.UserServiceImpl.getOtp(String)执行完成。 后置
+2020-11-06 01:03:50.656 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 01:03:50.719 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 1260 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 01:03:50.722 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 01:03:52.598 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 01:03:52.601 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 01:03:52.658 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 27ms. Found 0 Redis repository interfaces.
+2020-11-06 01:03:54.159 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 01:03:54.172 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 01:03:54.173 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 01:03:54.173 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 01:03:54.288 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 01:03:54.288 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3310 ms
+2020-11-06 01:03:55.864 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 01:03:55.989 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 01:03:56.414 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 01:03:56.472 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 01:03:56.487 [main] INFO  com.sst.App - Started App in 6.488 seconds (JVM running for 10.854)
+2020-11-06 01:04:10.072 [http-nio-80-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 01:04:10.072 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 01:04:10.085 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-06 01:04:10.105 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:04:10.169 [http-nio-80-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-06 01:04:10.641 [http-nio-80-exec-2] INFO  com.sst.log.Log - 返回值：8e85fb8d-48de-40cd-9de6-f6bb57e7dde9
+2020-11-06 01:04:10.642 [http-nio-80-exec-2] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-06 01:06:06.623 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 01:06:06.673 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 9856 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 01:06:06.676 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 01:06:08.229 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 01:06:08.233 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 01:06:08.300 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 33ms. Found 0 Redis repository interfaces.
+2020-11-06 01:06:09.928 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 01:06:09.943 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 01:06:09.944 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 01:06:09.944 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 01:06:10.136 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 01:06:10.136 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3257 ms
+2020-11-06 01:06:12.052 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 01:06:12.181 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 01:06:12.666 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 01:06:12.713 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 01:06:12.732 [main] INFO  com.sst.App - Started App in 6.71 seconds (JVM running for 11.292)
+2020-11-06 01:06:15.918 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 01:06:15.919 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 01:06:15.931 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-11-06 01:06:15.960 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:06:16.039 [http-nio-80-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-06 01:06:16.541 [http-nio-80-exec-1] INFO  com.sst.log.Log - 返回值：365cfef3-8c87-4c1a-a511-e550b1ba0b32
+2020-11-06 01:06:16.542 [http-nio-80-exec-1] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-06 01:06:16.551 [http-nio-80-exec-1] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')] with root cause
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at com.sst.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$d047839f.loginByPassword(<generated>)
+	at com.sst.controller.TestController.test5(TestController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-06 01:07:05.831 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:07:05.843 [http-nio-80-exec-2] INFO  com.sst.log.Log - 返回值：7420b5a9-c1ca-4e14-bb5f-8828d76258b5
+2020-11-06 01:07:05.843 [http-nio-80-exec-2] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-06 01:07:05.845 [http-nio-80-exec-2] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')] with root cause
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at com.sst.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$d047839f.loginByPassword(<generated>)
+	at com.sst.controller.TestController.test5(TestController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-06 01:07:39.888 [http-nio-80-exec-3] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:07:39.900 [http-nio-80-exec-3] INFO  com.sst.log.Log - 返回值：717ba226-0668-4113-9c5b-0f5686f6b5d5
+2020-11-06 01:07:39.900 [http-nio-80-exec-3] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-06 01:07:39.904 [http-nio-80-exec-3] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')] with root cause
+java.lang.ClassCastException: class java.lang.Integer cannot be cast to class java.lang.String (java.lang.Integer and java.lang.String are in module java.base of loader 'bootstrap')
+	at com.sst.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$d047839f.loginByPassword(<generated>)
+	at com.sst.controller.TestController.test5(TestController.java:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-06 01:08:12.794 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-06 01:08:13.032 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2020-11-06 01:08:30.464 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-06 01:08:30.486 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 13296 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-06 01:08:30.492 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-06 01:08:32.134 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-06 01:08:32.136 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-06 01:08:32.184 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 29ms. Found 0 Redis repository interfaces.
+2020-11-06 01:08:33.133 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-06 01:08:33.142 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-06 01:08:33.143 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-06 01:08:33.143 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-06 01:08:33.259 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-06 01:08:33.260 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2551 ms
+2020-11-06 01:08:34.798 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-06 01:08:34.910 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-06 01:08:35.379 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-06 01:08:35.421 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-06 01:08:35.434 [main] INFO  com.sst.App - Started App in 5.873 seconds (JVM running for 10.688)
+2020-11-06 01:08:42.178 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-06 01:08:42.178 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-06 01:08:42.185 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2020-11-06 01:08:42.210 [http-nio-80-exec-1] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:08:42.269 [http-nio-80-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-06 01:08:42.714 [http-nio-80-exec-1] INFO  com.sst.log.Log - 返回值：aaef035e-16fb-4aba-b31e-a12e9f39955c
+2020-11-06 01:08:42.715 [http-nio-80-exec-1] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-06 01:08:53.549 [http-nio-80-exec-2] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:08:53.561 [http-nio-80-exec-2] INFO  com.sst.log.Log - 返回值：375b80ee-b1b4-40c6-959c-45c703558b1c
+2020-11-06 01:08:53.561 [http-nio-80-exec-2] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置
+2020-11-06 01:09:03.063 [http-nio-80-exec-5] INFO  com.sst.log.Log - 前置增加：执行方法：String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)。参数为：[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-06 01:09:03.074 [http-nio-80-exec-5] INFO  com.sst.log.Log - 返回值：fedc9bf9-5916-4659-b6ca-02b62e4a7be3
+2020-11-06 01:09:03.074 [http-nio-80-exec-5] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String)执行完成。 后置

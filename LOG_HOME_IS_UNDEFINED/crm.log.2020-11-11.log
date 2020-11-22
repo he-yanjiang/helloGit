@@ -1,0 +1,446 @@
+2020-11-11 00:08:38.442 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-11 00:08:38.467 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 9784 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-11 00:08:38.467 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-11 00:08:39.907 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-11 00:08:39.915 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-11 00:08:39.999 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 60ms. Found 0 Redis repository interfaces.
+2020-11-11 00:08:41.387 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-11 00:08:41.408 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-11 00:08:41.412 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-11 00:08:41.413 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-11 00:08:41.690 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-11 00:08:41.694 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3036 ms
+2020-11-11 00:08:44.336 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-11 00:08:44.624 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-11 00:08:45.551 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-11 00:08:45.616 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-11 00:08:45.643 [main] INFO  com.sst.App - Started App in 8.097 seconds (JVM running for 10.579)
+2020-11-11 00:11:15.089 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-11 00:11:15.098 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 5388 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-11 00:11:15.104 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-11 00:11:17.062 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-11 00:11:17.068 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-11 00:11:17.130 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 Redis repository interfaces.
+2020-11-11 00:11:18.688 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-11 00:11:18.704 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-11 00:11:18.705 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-11 00:11:18.707 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-11 00:11:18.903 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-11 00:11:18.904 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 3525 ms
+2020-11-11 00:11:21.160 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-11 00:11:21.383 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-11 00:11:22.211 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-11 00:11:22.281 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-11 00:11:22.305 [main] INFO  com.sst.App - Started App in 8.013 seconds (JVM running for 10.293)
+2020-11-11 00:12:40.750 [http-nio-80-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-11 00:12:40.751 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-11 00:12:40.771 [http-nio-80-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 19 ms
+2020-11-11 00:12:41.365 [http-nio-80-exec-1] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[3718b3d9-ebec-4eb6-a4b1-c11bfd6e2b96]抛出异常：20004,登录状态失效
+2020-11-11 00:12:41.366 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[3718b3d9-ebec-4eb6-a4b1-c11bfd6e2b96]
+2020-11-11 00:12:41.373 [http-nio-80-exec-1] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@5491f476, com.sst.error.BusinessException]
+2020-11-11 00:13:18.545 [http-nio-80-exec-2] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-11 00:13:18.768 [http-nio-80-exec-2] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 00:13:19.229 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[d6653ee5-06f7-4728-8094-9de5802b58e0]
+2020-11-11 00:13:19.336 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 00:14:25.365 [http-nio-80-exec-6] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[d6653ee5-06f7-4728-8094-9de5802b58e0]抛出异常：20004,登录状态失效
+2020-11-11 00:14:25.368 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[d6653ee5-06f7-4728-8094-9de5802b58e0]
+2020-11-11 00:14:25.372 [http-nio-80-exec-6] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@5491f476, com.sst.error.BusinessException]
+2020-11-11 00:14:46.619 [http-nio-80-exec-7] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 00:14:47.045 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[49d0f51b-3b76-4a30-86f0-68bde3ed0d90]
+2020-11-11 00:14:47.055 [http-nio-80-exec-8] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 00:14:47.068 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 00:16:13.711 [http-nio-80-exec-10] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[6e4a1532-b5b6-4797-8a00-aa6cf07e7633]抛出异常：20004,登录状态失效
+2020-11-11 00:16:13.711 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[6e4a1532-b5b6-4797-8a00-aa6cf07e7633]
+2020-11-11 00:16:13.711 [http-nio-80-exec-10] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@7decd6, com.sst.error.BusinessException]
+2020-11-11 00:17:11.711 [http-nio-80-exec-1] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 00:17:14.964 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[142c4516-b6a4-4e44-80aa-35666808f47f]
+2020-11-11 00:17:14.979 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 00:25:48.958 [http-nio-80-exec-4] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[142c4516-b6a4-4e44-80aa-35666808f47f]抛出异常：20004,登录状态失效
+2020-11-11 00:25:48.959 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[142c4516-b6a4-4e44-80aa-35666808f47f]
+2020-11-11 00:25:48.960 [http-nio-80-exec-4] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@7decd6, com.sst.error.BusinessException]
+2020-11-11 00:26:02.466 [http-nio-80-exec-5] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 00:26:02.876 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bd895ca1-e656-48fd-83b9-c3fbd4a72412]
+2020-11-11 00:26:02.889 [http-nio-80-exec-6] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 14:44:34.424 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 6.0.14.Final
+2020-11-11 14:44:34.474 [main] INFO  com.sst.App - Starting App on DESKTOP-OFF6OBD with PID 1772 (E:\seckill2\shoppings\target\classes started by Administrator in E:\seckill2\shoppings)
+2020-11-11 14:44:34.475 [main] INFO  com.sst.App - No active profile set, falling back to default profiles: default
+2020-11-11 14:44:36.413 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-11 14:44:36.418 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-11 14:44:36.515 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 51ms. Found 0 Redis repository interfaces.
+2020-11-11 14:44:38.575 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 80 (http)
+2020-11-11 14:44:38.601 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-80"]
+2020-11-11 14:44:38.603 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-11-11 14:44:38.608 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-11 14:44:38.884 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-11-11 14:44:38.884 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4264 ms
+2020-11-11 14:44:42.277 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-11 14:44:42.612 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page: class path resource [static/index.html]
+2020-11-11 14:44:43.648 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-80"]
+2020-11-11 14:44:43.703 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 80 (http) with context path ''
+2020-11-11 14:44:43.740 [main] INFO  com.sst.App - Started App in 10.008 seconds (JVM running for 12.527)
+2020-11-11 15:01:34.873 [http-nio-80-exec-2] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-11-11 15:01:34.876 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-11-11 15:01:34.948 [http-nio-80-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 70 ms
+2020-11-11 15:01:35.108 [http-nio-80-exec-1] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@ae8c625, org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'userMessageCode' is not present]
+2020-11-11 15:08:15.685 [http-nio-80-exec-5] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.getRedisOtp(String),[]
+2020-11-11 15:08:15.685 [http-nio-80-exec-6] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.getRedisOtp(String),[]
+2020-11-11 15:08:15.685 [http-nio-80-exec-4] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.getRedisOtp(String),[]
+2020-11-11 15:08:15.687 [http-nio-80-exec-4] INFO  com.sst.log.Log - [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@560c4532, com.sst.error.BusinessException]
+2020-11-11 15:08:15.688 [http-nio-80-exec-5] INFO  com.sst.log.Log - [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@1e462a97, com.sst.error.BusinessException]
+2020-11-11 15:08:15.689 [http-nio-80-exec-6] INFO  com.sst.log.Log - [org.springframework.web.multipart.support.StandardMultipartHttpServletRequest@16ac64eb, com.sst.error.BusinessException]
+2020-11-11 21:19:56.756 [http-nio-80-exec-4] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[bd895ca1-e656-48fd-83b9-c3fbd4a72412]抛出异常：20004,登录状态失效
+2020-11-11 21:19:56.757 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bd895ca1-e656-48fd-83b9-c3fbd4a72412]
+2020-11-11 21:19:56.757 [http-nio-80-exec-4] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@3de940b9, com.sst.error.BusinessException]
+2020-11-11 21:20:12.149 [http-nio-80-exec-6] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2020-11-11 21:20:12.975 [http-nio-80-exec-6] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 21:20:13.412 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:20:13.493 [http-nio-80-exec-5] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:29:39.110 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:29:39.168 [http-nio-80-exec-7] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:30:59.269 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:30:59.313 [http-nio-80-exec-8] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:44:06.360 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:44:06.399 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:44:56.678 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll(),[]
+2020-11-11 21:44:56.850 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory(),[]
+2020-11-11 21:44:58.389 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:45:25.158 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:45:25.198 [http-nio-80-exec-7] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:47:15.063 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:47:15.125 [http-nio-80-exec-8] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:48:33.628 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:48:33.661 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:49:03.508 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:50:03.918 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:50:03.960 [http-nio-80-exec-1] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:51:12.229 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:51:12.259 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:52:26.779 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:52:26.809 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:52:59.722 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:53:25.965 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:56:15.382 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:56:15.425 [http-nio-80-exec-5] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:56:58.800 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:58:56.441 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 21:58:56.472 [http-nio-80-exec-8] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 21:59:20.884 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:03:06.775 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:03:06.809 [http-nio-80-exec-10] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:09:12.059 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:09:12.093 [http-nio-80-exec-1] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:09:30.192 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:09:48.629 [http-nio-80-exec-4] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory(),[]
+2020-11-11 22:09:48.637 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll(),[]
+2020-11-11 22:09:48.797 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:10:00.649 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:10:25.083 [http-nio-80-exec-7] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]抛出异常：20004,登录状态失效
+2020-11-11 22:10:25.084 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[c19baf7e-3351-4073-bc2d-ffb6ba03f6ab]
+2020-11-11 22:10:25.085 [http-nio-80-exec-7] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@3de940b9, com.sst.error.BusinessException]
+2020-11-11 22:10:38.771 [http-nio-80-exec-8] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 22:10:38.952 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:10:38.980 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:11:10.707 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:11:34.704 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:11:54.474 [http-nio-80-exec-4] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory(),[]
+2020-11-11 22:11:54.498 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll(),[]
+2020-11-11 22:11:55.354 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:11:55.390 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:13:09.433 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:13:09.471 [http-nio-80-exec-6] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:13:19.486 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:13:44.906 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:17:20.280 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:17:20.311 [http-nio-80-exec-8] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:17:50.367 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:18:20.821 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:18:20.845 [http-nio-80-exec-10] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:19:13.846 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:19:50.872 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:19:50.905 [http-nio-80-exec-4] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:22:22.204 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:22:22.248 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:23:32.429 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:23:32.454 [http-nio-80-exec-6] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:30:13.421 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:30:13.457 [http-nio-80-exec-5] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:30:55.962 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:31:18.369 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:31:18.398 [http-nio-80-exec-8] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:32:15.763 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:32:23.955 [http-nio-80-exec-10] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:32:23.973 [http-nio-80-exec-10] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:33:49.031 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:33:49.070 [http-nio-80-exec-1] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:34:06.738 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:35:48.711 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:35:48.742 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:37:26.996 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll(),[]
+2020-11-11 22:37:26.999 [http-nio-80-exec-6] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory(),[]
+2020-11-11 22:37:35.565 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:37:35.575 [http-nio-80-exec-5] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:40:58.545 [http-nio-80-exec-8] INFO  org.apache.coyote.http11.Http11Processor - Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x00{0x010x000x00w0x030x030xe5aF0x16N0xedlF0xe4JO0x0f0x800xb20x81PqX0xfe0xf580xa40x17t0x85Y0xf20x0c0xbb0xe60xf3~0x000x000x1a0xc0/0xc0+0xc00x110xc00x070xc00x130xc00x090xc00x140xc00x0a0x000x050x00/0x0050xc00x120x000x0a0x010x000x0040x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000x000x0d0x000x100x000x0e0x040x010x040x030x020x010x020x030x040x010x050x010x060x010xff0x010x000x01...]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:413)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-11 22:47:38.527 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:47:38.638 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:49:51.153 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:49:51.187 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:51:39.639 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:51:39.652 [http-nio-80-exec-6] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:57:46.135 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 22:57:46.178 [http-nio-80-exec-5] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 22:58:36.208 [http-nio-80-exec-7] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 23:08:46.293 [http-nio-80-exec-8] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]抛出异常：20004,登录状态失效
+2020-11-11 23:08:46.294 [http-nio-80-exec-8] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[b6a14b0a-c19d-4b36-a9a3-41f2d8d5e571]
+2020-11-11 23:08:46.299 [http-nio-80-exec-8] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@66dd5a00, com.sst.error.BusinessException]
+2020-11-11 23:09:03.816 [http-nio-80-exec-9] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 23:09:03.820 [http-nio-80-exec-10] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-11 23:09:04.053 [http-nio-80-exec-1] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[77f2b4b1-cf13-4d67-8c94-1b55d7f3d811]
+2020-11-11 23:09:04.081 [http-nio-80-exec-1] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 23:09:15.007 [http-nio-80-exec-4] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bcfd9821-e3fb-4af7-b442-ee56475e6493]
+2020-11-11 23:11:08.350 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bcfd9821-e3fb-4af7-b442-ee56475e6493]
+2020-11-11 23:11:08.378 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 23:13:45.668 [http-nio-80-exec-3] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bcfd9821-e3fb-4af7-b442-ee56475e6493]
+2020-11-11 23:13:45.699 [http-nio-80-exec-3] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-11 23:14:21.639 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bcfd9821-e3fb-4af7-b442-ee56475e6493]
+2020-11-11 23:14:36.332 [http-nio-80-exec-5] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bcfd9821-e3fb-4af7-b442-ee56475e6493]
+2020-11-12 23:16:16.262 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsCategoryServiceImpl.getGoodsCategoryAll(),[]
+2020-11-12 23:16:16.318 [http-nio-80-exec-10] INFO  com.sst.log.Log - List com.sst.service.impl.ContentServiceImpl.getContentAndCategory(),[]
+2020-11-12 23:16:19.024 [http-nio-80-exec-2] INFO  com.sst.log.Log - List com.sst.service.impl.GoodsServiceImpl.getGoodsListByOne(Integer),[1]
+2020-11-12 23:16:24.580 [http-nio-80-exec-6] INFO  com.sst.log.Log - 方法UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String)参数[bcfd9821-e3fb-4af7-b442-ee56475e6493]抛出异常：20004,登录状态失效
+2020-11-12 23:16:24.580 [http-nio-80-exec-6] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[bcfd9821-e3fb-4af7-b442-ee56475e6493]
+2020-11-12 23:16:24.580 [http-nio-80-exec-6] INFO  com.sst.log.Log - [org.apache.catalina.connector.RequestFacade@3de940b9, com.sst.error.BusinessException]
+2020-11-12 23:16:42.509 [http-nio-80-exec-5] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-12 23:16:42.790 [http-nio-80-exec-8] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-12 23:16:42.793 [http-nio-80-exec-7] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-12 23:16:42.815 [http-nio-80-exec-9] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[4a78b2e6-4ba1-4ee4-a226-b23538ada571]
+2020-11-12 23:16:42.830 [http-nio-80-exec-9] INFO  com.sst.log.Log - List com.sst.service.impl.ShopCartServiceImpl.getShopCartByUserId(Integer),[7]
+2020-11-12 23:16:42.912 [http-nio-80-exec-10] INFO  com.sst.log.Log - String com.sst.service.impl.UserServiceImpl.loginByPassword(String,String),[15281022297, 4QrcOUm6Wau+VuBX8g+IPg==]
+2020-11-12 23:16:52.557 [http-nio-80-exec-2] INFO  com.sst.log.Log - UserDO com.sst.service.impl.UserServiceImpl.getUserByToken(String),[5b8a3704-ab15-469b-8860-b7abc896d1db]
+2020-11-16 20:17:03.096 [lettuce-nioEventLoop-4-1] INFO  io.lettuce.core.protocol.CommandHandler - null Unexpected exception during request: java.net.SocketException: Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:345)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:376)
+	at io.netty.buffer.PooledByteBuf.setBytes(PooledByteBuf.java:253)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1133)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:350)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:151)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:714)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-16 20:17:03.327 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was /192.168.101.242:6379
+2020-11-16 20:17:03.596 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: No route to host: no further information: /192.168.101.242:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.101.242:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-16 20:17:08.436 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:17:08.436 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: No route to host: no further information: /192.168.101.242:6379
+io.netty.channel.AbstractChannel$AnnotatedNoRouteToHostException: No route to host: no further information: /192.168.101.242:6379
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:589)
+	at java.base/sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:839)
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:330)
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:702)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:650)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:576)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:493)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:989)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2020-11-16 20:17:20.936 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:17:30.946 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:17:47.428 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:17:57.436 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:18:27.527 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:18:37.529 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:19:07.628 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:19:17.630 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:19:47.727 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:19:57.730 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:20:27.827 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:20:37.846 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:21:07.928 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:21:17.930 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:21:48.036 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:21:58.038 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:22:28.126 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:22:38.129 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:23:08.228 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:23:18.232 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:23:48.328 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:23:58.331 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:24:28.444 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:24:38.450 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:25:08.536 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:25:18.557 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:25:48.637 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:25:58.656 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:26:28.728 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:26:38.730 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:27:08.827 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:27:18.830 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:27:48.928 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:27:58.930 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:28:29.028 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:28:39.030 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:29:09.127 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:29:19.130 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:29:49.227 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:29:59.229 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:30:29.330 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:30:39.332 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:31:09.429 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:31:19.433 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:31:49.527 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:31:59.529 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:32:29.628 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:32:39.630 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:33:09.727 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:33:19.738 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:33:49.828 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:33:59.831 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:34:29.927 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:34:39.930 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:35:10.027 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:35:20.038 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:35:50.137 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:36:00.147 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:36:30.237 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:36:40.247 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:37:10.327 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:37:20.332 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:37:50.427 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:38:00.428 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:38:30.527 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:38:40.530 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:39:10.627 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:39:20.630 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:39:50.728 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:40:00.731 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:40:30.827 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:40:40.830 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:41:10.928 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:41:20.931 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:41:51.027 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:42:01.030 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:42:31.136 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:42:41.148 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:43:11.228 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:43:21.248 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:43:51.338 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:44:01.340 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:44:31.428 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:44:41.434 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:45:11.527 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:45:21.548 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:45:51.638 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:46:01.649 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:46:31.728 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:46:41.730 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:47:11.828 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:47:21.830 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:47:51.928 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:48:01.932 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:48:32.028 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:48:42.031 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:49:12.128 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:49:22.130 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:49:52.228 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:50:02.230 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:50:32.329 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:50:42.331 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:51:12.427 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:51:22.433 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:51:52.528 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:52:02.531 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:52:32.627 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:52:42.629 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:53:12.728 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:53:22.730 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:53:52.828 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:54:02.831 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:54:32.928 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:54:42.931 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:55:13.027 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:55:23.030 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:55:53.128 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:56:03.130 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:56:33.227 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:56:43.239 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:57:13.328 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:57:23.329 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:57:53.439 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:58:03.443 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:58:33.528 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:58:43.529 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:59:13.627 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 20:59:23.629 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 20:59:53.727 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:00:03.729 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:00:33.828 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:00:43.831 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:01:13.926 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:01:23.930 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:01:54.028 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:02:04.030 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:02:34.128 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:02:44.140 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:03:14.228 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:03:24.230 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:03:54.328 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:04:04.329 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:04:34.428 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:04:44.429 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:05:14.527 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:05:24.529 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:05:54.627 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:06:04.629 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:06:34.727 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:06:44.729 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:07:14.827 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:07:24.830 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:07:54.927 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:08:04.928 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:08:35.027 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:08:45.050 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:09:15.128 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:09:25.141 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:09:55.230 [lettuce-eventExecutorLoop-1-4] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:10:05.240 [lettuce-nioEventLoop-4-2] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:10:35.328 [lettuce-eventExecutorLoop-1-1] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:10:45.329 [lettuce-nioEventLoop-4-3] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:11:15.427 [lettuce-eventExecutorLoop-1-2] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:11:25.431 [lettuce-nioEventLoop-4-4] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
+2020-11-16 21:11:55.527 [lettuce-eventExecutorLoop-1-3] INFO  io.lettuce.core.protocol.ConnectionWatchdog - Reconnecting, last destination was 192.168.101.242/<unresolved>:6379
+2020-11-16 21:12:05.529 [lettuce-nioEventLoop-4-1] WARN  io.lettuce.core.protocol.ConnectionWatchdog - Cannot reconnect to [192.168.101.242/<unresolved>:6379]: connection timed out: /192.168.101.242:6379
